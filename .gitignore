@@ -1,2 +1,5 @@
 wallet.json
 src/imports/__pycache__/
+build/
+dist/
+miner_gui.spec
