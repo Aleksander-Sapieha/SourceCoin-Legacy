@@ -348,11 +348,11 @@ class SourceCoinGUI:
                             data = r.json()
                             error_msg = data.get('message', 'Rate limited - waiting...')
                             self.log_message(f"Mining rate limited: {error_msg}", "warning")
-                            self.log_message("⏰ Waiting 10 minutes before next attempt...", "warning")
+                            self.log_message("⏰ Waiting 1 second before next attempt...", "warning")
                         except ValueError:
                             self.log_message("Mining rate limited - waiting...", "warning")
-                            self.log_message("⏰ Waiting 10 minutes before next attempt...", "warning")
-                        time.sleep(600)  # Wait 10 minutes for rate limit
+                            self.log_message("⏰ Waiting 1 second before next attempt...", "warning")
+                        time.sleep(1)  # Wait 10 minutes for rate limit
                     else:
                         try:
                             error_msg = r.json().get('message', f'HTTP {r.status_code} error')
