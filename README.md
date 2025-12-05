@@ -1,7 +1,7 @@
 # SourceCoin Legacy (SRCL)
 ## Overview
 
-A simplified blockchain where a server runs a hidden countdown timer and rewards all active miners with 50 coins when it ends.
+A fake blockchain where a server runs a hidden countdown timer and rewards all active miners with 50 coins when it ends.
 
 ## How It Works
 The server runs on [my website](sourceguy.pythonanywhere.com) and manages the countdown timer (random between 200–600 seconds).
