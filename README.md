@@ -12,36 +12,5 @@ When the countdown reaches zero, the server automatically rewards all currently 
 
 The countdown timer is hidden from miners to prevent abuse.
 
-# Getting Started
-## Prerequisites
-Python.
-
-Download the miner from the source code.
-
-## Running the Miner
-Download the .py file
-
-Then install requirements.txt:
-
-`pip install -r requirements.txt`
-
-Finally take the .py and run it in python.
-
-# Security and Fairness
-The server handles all timing and reward logic to prevent cheating.
-
-The server code is open-source for transparency.
-
-# API
-
-### See balance
-`GET https://sourcenew.pythonanywhere.com/balance/{User's Address}`
-
-### There are other API endpoints that i'm working on making public.
-
-
-# Contribution
-Please make sure to include comments where nessesary.
-
 # Disclaimer
 this project isnt a real currency, its for educational purposes only!
