@@ -35,7 +35,7 @@ The server code is open-source for transparency.
 # API
 
 ### See balance
-`GET https://sourceguy.pythonanywhere.com/balance/{User's Address}`
+`GET https://sourcenew.pythonanywhere.com/balance/{User's Address}`
 
 ### There are other API endpoints that i'm working on making public.
 
